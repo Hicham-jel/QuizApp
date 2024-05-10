@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/areyouready"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorAccent"
+    tools:context=".MainActivity">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="200dp"
+        android:layout_marginTop="60dp"
+        android:layout_height="200dp"
+        android:src="@drawable/are"
+        android:layout_gravity="center"></de.hdodenhof.circleimageview.CircleImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="207dp"
+            android:layout_height="163dp"
+            android:layout_marginLeft="100dp"
+            android:id="@+id/buttonare"
+            android:layout_marginTop="60dp"
+            android:layout_marginRight="70dp"
+            android:background="@drawable/button_cercle"
+            android:backgroundTint="@color/colorPrimary"
+            android:backgroundTintMode="src_atop"
+            android:drawableLeft="@android:drawable/ic_media_play"
+            android:drawableTint="@color/yellow"
+            android:hint="Play !"
+            android:textColor="@color/yellow"
+            android:textSize="50dp"
+            android:textStyle="bold">
+
+        </Button>
+    </LinearLayout>
+</LinearLayout>
