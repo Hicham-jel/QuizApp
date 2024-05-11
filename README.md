@@ -1,4 +1,5 @@
 QUIZ APP
+
 Bienvenue sur le dépôt GitHub de notre Quiz App Android, une application interactive qui challenge les utilisateurs avec des questions chronométrées et maintient un classement des scores.
 
 Fonctionnalités
