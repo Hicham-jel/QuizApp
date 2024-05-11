@@ -1,4 +1,4 @@
-Bienvenue sur le dépôt GitHub de notre Quiz App Android, une application interactive qui challenge les utilisateurs avec des questions chronométrées et maintient un classement des scores.
+##Bienvenue sur le dépôt GitHub de notre Quiz App Android, une application interactive qui challenge les utilisateurs avec des questions chronométrées et maintient un classement des scores.
 
 Fonctionnalités
 --Stockage des Questions : Les questions du quiz sont stockées et gérées en temps réel grâce à Firebase Realtime Database, permettant une mise à jour et une récupération efficace des données.
